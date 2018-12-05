@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import Intro from '../intro'
+import Intro from '../intro';
+import 'whatwg-fetch';
 
 class App extends Component {
   state = {
